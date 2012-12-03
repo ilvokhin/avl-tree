@@ -1,7 +1,7 @@
 #include <iostream>
 #include <cstdlib>
 #include <vector>
-#include "../../avl_tree.h"
+#include "../avl_tree.h"
 
 int main()
 {
