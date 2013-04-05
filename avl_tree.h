@@ -2,6 +2,9 @@
 #include <iostream>
 #include <algorithm>
 
+#ifndef __avl_tree_h__
+#define __avl_tree_h__
+
 template<class K, class V>
 class avl_tree
 {
@@ -148,3 +151,5 @@ public:
 	}
 	~avl_tree(){ if(root) tree_delete(root); }
 };
+
+#endif
